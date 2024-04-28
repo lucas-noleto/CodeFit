@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+
+@media  {
+
+}
+
+li:hover{
+    border-bottom: solid #ffffff;
+    border-width: 1px;
+}
+
+header{
+    position: fixed top;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+html, body{
+    background-image: url(assets/gym-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-brand:hover{
+    color: royalblue;
+}
+
+.title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 40px;
+    width: 800px;
+    flex-direction: column;
+    background:  #ffffff10;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 5px;
+    backdrop-filter: blur(5px);
+
+}
+
+.title{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: white;
+}
+
+.title:hover{
+    cursor: default;
+}
+
+.subtitle{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 20px;
+    color: white;
+}
+
+.subtitle:hover{
+    cursor: default;
+}
