@@ -20,13 +20,23 @@ html{
 }
 
 html, body{
-    background-image: url(assets/gym-background.jpg);
+    
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .navbar-brand:hover{
     color: royalblue;
+}
+
+.parallax{
+    background-image: url(assets/gym-background.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .title-container{
