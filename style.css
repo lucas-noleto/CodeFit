@@ -29,14 +29,23 @@ html, body{
     color: royalblue;
 }
 
+.Logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 60px;
+
+}
+
 .parallax{
     background-image: url(assets/gym-background.jpg);
-    min-height: 500px;
+    min-height: 600px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .title-container{
@@ -52,7 +61,21 @@ html, body{
     border: 1px solid white;
     padding: 5px;
     backdrop-filter: blur(5px);
+    background-color: black;
 
+}
+
+.cont{
+    width: 900px;
+    height: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:  center;
+    flex-wrap: wrap;
+}
+
+.stretch {
+	align-items: stretch;
 }
 
 .title{
@@ -61,7 +84,7 @@ html, body{
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    color: white;
+    color: #AAABAB;
 }
 
 .title:hover{
@@ -80,3 +103,4 @@ html, body{
 .subtitle:hover{
     cursor: default;
 }
+
