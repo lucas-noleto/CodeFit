@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
 
 
-@media  {
-
-}
+ 
 
 li:hover{
     border-bottom: solid #ffffff;
@@ -39,8 +37,9 @@ html, body{
 
 }
 
+
 .parallax{
-    background-image: url(assets/gym-background_2.jpeg);
+    background-image: url("/assets/gym-background.jpg");
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
@@ -109,3 +108,4 @@ html, body{
     cursor: default;
 }
 
+ 
