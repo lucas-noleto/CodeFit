@@ -41,7 +41,7 @@ html, body{
 
 .parallax{
     background-image: url(assets/gym-background.jpg);
-    min-height: 600px;
+    min-height: 400px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -52,17 +52,21 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 30%;
     margin-top: 40px;
-    width: 800px;
+    margin-bottom: 40px;
+    width: 400px;
     flex-direction: column;
-    background:  #ffffff10;
-    border-radius: 10px;
-    border: 1px solid white;
     padding: 5px;
-    backdrop-filter: blur(5px);
-    background-color: black;
 
+}
+
+
+.divFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
 }
 
 .cont{
@@ -77,6 +81,7 @@ html, body{
 .stretch {
 	align-items: stretch;
 }
+
 
 .title{
     font-family: "Roboto Mono", monospace;
