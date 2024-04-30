@@ -12,10 +12,6 @@ header{
     position: fixed top;
 }
 
-html{
-    width: 100%;
-    height: 100%;
-}
 
 html, body{
     
@@ -40,7 +36,8 @@ html, body{
 
 .parallax{
     background-image: url("/assets/gym-background.jpg");
-    min-height: 400px;
+    width: 100%;
+    height: 600px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -68,14 +65,39 @@ html, body{
     
 }
 
-.cont{
-    width: 900px;
-    height: 1200px;
+.cont {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os cards horizontalmente */
+    align-items: center,stretch; /* Centraliza os cards verticalmente */
+    
+}
+
+.bordas{
+    margin:100px;
+}
+
+
+
+/* .cont{
+    width: 600px;
+    height: 900px;
     margin: 0 auto;
     display: flex;
-    justify-content:  center;
+    flex-direction: row;
+    align-items: stretch;
+    align-content: stretch;
     flex-wrap: wrap;
+    
+} */
+    /* justify-content:  space-around;
+    align-content: ; 
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
+} */
 
 .stretch {
 	align-items: stretch;
