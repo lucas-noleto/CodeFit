@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Sharpshooter';
-    src: url('/assets/sharpshooter/Sharpshooter.otf') format('opentype');
+    src: url('./assets/sharpshooter/Sharpshooter.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
