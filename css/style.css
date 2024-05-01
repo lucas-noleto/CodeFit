@@ -1,7 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
 
-
+@font-face {
+    font-family: 'Sharpshooter';
+    src: url('/assets/sharpshooter/Sharpshooter.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
  
+.title-logo{
+    font-family: 'Sharpshooter';
+    text-decoration: none;
+    color: #000000;
+}
+
+.navbar-custom{
+    background-color: #3dde83;
+}
 
 li:hover{
     border-bottom: solid #ffffff;
@@ -37,11 +51,26 @@ html, body{
 .parallax{
     background-image: url("/assets/gym-background.jpg");
     width: 100%;
-    height: 600px;
+    height: 800px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.paraPag{
+    background-image: url("/assets/gym-background-pagamentos.jpg");
+    width: 100%;
+    height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os cards horizontalmente */
+    align-items: center; /* Centraliza os cards verticalmente */
 }
 
 .title-container{

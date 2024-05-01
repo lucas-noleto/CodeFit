@@ -10,9 +10,9 @@
     <title>CodeFit</title>
 </head>
 <header class="postion-relative"> 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" style="navbar-custom;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="title-logo" href="#">
                 CodeFit
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -22,7 +22,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Início</a>
+                        <a class="nav-link active" aria-current="page" href="#inicio">Início</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Meus treinos</a>
@@ -42,31 +42,24 @@
                             <li><a class="dropdown-item" href="#">Danças</a></li>
                         </ul>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#carouselExampleControls">Depoimentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pagamentos">Planos de pagamento</a>
+                    </li>
                 </ul>
-                <img class = "Logo" src="./assets/Screenshot_27-4-2024_23104_looka.com.jpeg" alt="Logo" width="100" height="70">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
             </div>
         </div>
     </nav>
 </header>
 <body>   
     <main>
-        <div class="parallax divFlex">
-            <div class="title-container">
-                <!-- <div>
-                    <h3 class="card-title" style="color: #87A922; ">
-                        Transformando códigos em músculos e algoritmos em resultados!
-                    <h3>
-                </div> -->
-            </div>
-        </div>
-        <div class="card text-center " style="background-color: black; border-radius: none;">
+        <div class="parallax divFlex"></div>
+        <div class="card text-center " id="inicio" style="background-color: black; border-radius: none;">
             <div class="card-body" style="border-radius: none;">
-              <h1 class="card-title" style="color: #87A922;">CodeFit</h1>
-              <h2 class="card-text" style="color: #87A922;">Transformando codigos em musculos e algoritmos em resultados.</h2>
+              <h1 class="card-title" style="color: #3dde83;"><strong>CodeFit</strong></h1>
+              <h2 class="card-text" style="color: #3dde83;">Transformando codigos em musculos e algoritmos em resultados.</h2>
             </div>
           </div>
         <section class="cont" style="background-color: black; border-radius: none;">
@@ -123,8 +116,8 @@
                         <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                     </div>
             </div>
-        </section>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
+        </section >
+        <div id="carouselExampleControls"  class="carousel slide" data-bs-ride="carousel" >
             <div class="container">
                 <h2 class="text-center">Depoimentos</h2>
               </div>
@@ -175,6 +168,84 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
+
+        <div class="paraPag" id="pagamentos">
+            <section class="cont" style=" border-radius: none;">
+        
+                <div class="card mb-3" style="background-color: #3dde83; width: 400px; height: 300px; margin: 20px;">
+                    <div class="card-header" style="height: 100px; align-content: center; align-self: center;"> <h1>Plano Basico</h1></div>
+                        <div class="card-body text-bg-light">
+                            <h5 class="card-title">Plano basico acompanha:</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Lista de treinos trimestral</li>
+                                <li class="list-group-item">Uma modalidade esportiva alem do treino de musculacao</li>    
+                            </ul>
+                        </div>
+                            <button type="button" class="btn btn-primary">Quero assinar o plano basico (R$ 19,90)</button>
+                </div>
+                
+                <div class="card mb-3" style="background-color: #3dde83; width: 400px; height: 300px; margin: 20px;">
+                    <div class="card-header" style="height: 100px; align-content: center; align-self: center;"> <h1>Plano Avancado</h1></div>
+                        <div class="card-body text-bg-light">
+                            <h5 class="card-title">Plano avancado acompanha:</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Lista de treinos trimestral</li>
+                                <li class="list-group-item">Duas modalidades esportivas alem do treino de musculacao</li>
+                                <li class="list-group-item">Desconto de 5% em academias parceiras</li>
+                                <li class="list-group-item">Desconto de 5% com personais credenciados no aplicativo</li>
+                                <li class="list-group-item">Desconto de 5% na linha de suplementos de marcas parceiras</li>
+                            </ul>
+                        </div>
+                            <button type="button" class="btn btn-primary">Quero assinar o plano avancado (R$ 49,90)</button>
+                        
+                </div>
+                    
+                <div class="card mb-3" style="background-color: #3dde83; width: 400px; height: 300px; margin: 20px;">
+                    <div class="card-header" style="height: 100px; align-content: center; align-self: center;"> <h1>Plano Avancado</h1></div>
+                        <div class="card-body text-bg-light">
+                            <h5 class="card-title">Plano premium acompanha:</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Lista de treinos trimestral</li>
+                                <li class="list-group-item">Cinco modalidades esportivas alem do treino de musculacao</li>
+                                <li class="list-group-item">Desconto de 15% em academias parceiras</li>
+                                <li class="list-group-item">Desconto de 15% com personais credenciados no aplicativo</li>
+                                <li class="list-group-item">Desconto de 15% na linha de suplementos de marcas parceiras</li>
+                                <li class="list-group-item">Modulo de IA</li>
+                                <li class="list-group-item">Avaliacao com nutricionista mensal</li>
+                                <li class="list-group-item">Bioimpedancia</li>
+                            </ul>
+                        </div>
+                            <button type="button" class="btn btn-primary">Quero assinar o plano premium (R$ 89,90)</button>
+                        
+                </div>
+    
+                    <div class="card mb-3" style="background-color: #3dde83; max-width: 400px;height: 800px; margin: 20px;">
+                    <div class="card-header" style="height: 100px; align-content: center; align-self: center;"> <h1>Deuses do Olimpo</h1></div>
+                    <div class="card-body text-bg-light">
+                        <div class="card-body text-bg-light">
+                            <h5 class="card-title">Plano Deuses do Olimpo:</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Lista de treinos trimestral</li>
+                                <li class="list-group-item">Cinco modalidades esportivas alem do treino de musculacao</li>
+                                <li class="list-group-item">Desconto de 100% em academias parceiras</li>
+                                <li class="list-group-item">Desconto de 50% com personais credenciados no aplicativo</li>
+                                <li class="list-group-item">Desconto de 50% na linha de suplementos de marcas parceiras</li>
+                                <li class="list-group-item">Modulo de IA liberado</li>
+                                <li class="list-group-item">Bioimpedancia</li>
+                                <li class="list-group-item">Modulo de IA</li>
+                                <li class="list-group-item">Avaliacao com nutricionista mensal</li>
+                                <li class="list-group-item">Bioimpedancia</li>
+                                <li class="list-group-item">Gym pass, malhe em qualquer academia credenciada, sem limite</li>
+                                <li class="list-group-item">Whey da marca parceira mais proxima de você, cliente tem direito a uma unidade mensal de whey</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary">Quero assinar o plano premium (R$ 299,90)</button>
+                </div>
+                
+            </section >
+        </div>
+                
         <!-- <div style="width: 600px;height:100px;background-color:rgb(10, 10, 10);font-size:36px">
             <p class="subtitle">
                 Baixe já o app <strong>CodeFit</strong>. Disponível na App Store e Play Store!
@@ -194,8 +265,8 @@
     </symbol>
 </svg>
 
-    <div  style="background-color: #87A922; padding: 15px; ">
-        <footer class="container d-flex flex-wrap justify-content-between align-items-baseline py-3 border-top " style="background-color: #87A922;">
+    <div  style="background-color: #3dde83; padding: 15px; ">
+        <footer class="container d-flex flex-wrap justify-content-between align-items-baseline py-3 border-top " style="background-color: #3dde83;">
             <div class="col-md-4 d-flex align-items-center">
                 <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
                     <img src="./assets/gym icon.png" height="50">
