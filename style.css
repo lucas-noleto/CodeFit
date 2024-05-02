@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'Sharpshooter';
-    src: url('/assets/sharpshooter/Sharpshooter.otf') format('opentype');
+    src: url('./assets/sharpshooter/Sharpshooter.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -51,7 +51,7 @@ html, body{
 }
 
 .parallax{
-    background-image: url(assets/gym-background-mg.jpg);
+    background-image: url("./assets/gym-background-mg.jpg");
     width: 100%;
     height: 800px;
     background-attachment: fixed;
@@ -61,7 +61,7 @@ html, body{
 }
 
 .paraPag{
-    background-image: url(assets/gym-background-pagamentos.jpg);
+    background-image: url("./assets/gym-background-pagamentos.jpg");
     width: 100%;
     height: 1300px;
     background-attachment: fixed;
@@ -197,7 +197,7 @@ html, body{
     text-align: center;
     height: 300px;
     border: solid 1px black;
-    background-image: url(assets/jiu-jitsu-img.jpg);
+    background-image: url("./assets/jiu-jitsu-img.jpg");
     color: #3dde83;
     cursor: default;
 }
@@ -213,7 +213,7 @@ html, body{
     align-items: center;
     text-align: center;
     border: solid 1px black;
-    background-image: url(assets/boxe-background.jpg);
+    background-image: url("./assets/boxe-background.jpg");
     color: #3dde83;
     cursor: default;
 }
@@ -229,7 +229,7 @@ html, body{
     align-items: center;
     text-align: center;
     border: solid 1px black;
-    background-image: url(assets/muay-thai-img.jpg);
+    background-image: url("./assets/muay-thai-img.jpg");
     color: #3dde83;
     cursor: default;
 }
@@ -245,7 +245,7 @@ html, body{
     align-items: center;
     text-align: center;
     border: solid 1px black;
-    background-image: url(assets/crossfit-img.jpg);
+    background-image: url("./assets/crossfit-img.jpg");
     color: #3dde83;
     cursor: default;
 }
