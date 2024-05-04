@@ -204,6 +204,11 @@ html, body{
 
 .jiu-jitsu-container:hover{
     filter: blur(2px);
+    transition: 300ms;
+}
+
+.jiu-jitsu-container:not(:hover){
+    filter: blur(0px);
     transition: 500ms;
 }
 
@@ -223,6 +228,11 @@ html, body{
     transition: 500ms;
 }
 
+.boxe-container:not(:hover){
+    filter: blur(0px);
+    transition: 500ms;
+}
+
 .muay-thai-container{
     display: flex;
     justify-content: center;
@@ -236,6 +246,11 @@ html, body{
 
 .muay-thai-container:hover{
     filter: blur(2px);
+    transition: 300ms;
+}
+
+.muay-thai-container:not(:hover){
+    filter: blur(0px);
     transition: 500ms;
 }
 
@@ -252,5 +267,10 @@ html, body{
 
 .crossfit-container:hover{
     filter: blur(2px);
+    transition: 300ms;
+}
+
+.crossfit-container:not(:hover){
+    filter: blur(0px);
     transition: 500ms;
 }
